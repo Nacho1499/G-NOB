@@ -3,21 +3,21 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Scroll from "./Scroll";
 
-const Contact = () => {
+const Vocationalform = () => {
   return (
     <>
       <Navbar />
       <Scroll />
       <div>
-        <div className="contact container-fluid">
+        <div className="vocational-form container-fluid">
           <div className="text-center">
-            <h5 className="text-light">Contact Us here</h5>
-            <p className="text-light">Get in touch</p>
+            <h5 className="text-light">APPLICATION FORM</h5>
           </div>
         </div>
         <div className=" details container ">
           <form
-            action="" method=""
+            action=""
+            method=""
             className="bg-dark p-4 rounded mt-5 mb-4 text-light w-100  mx-auto shadow"
           >
             <div className="mb-3 mt-3 outline-warning">
@@ -39,7 +39,7 @@ const Contact = () => {
                 type="email"
                 className="form-control"
                 placeholder="Enter email/phone"
-                name="phone number"
+                name="phone number/email"
               />
             </div>
             <div className="mb-3">
@@ -51,12 +51,43 @@ const Contact = () => {
                 className="form-control"
                 id="pwd"
                 placeholder="Enter Address"
-                name="pswd"
+                name="address"
               />
+              <div className="mb-3 mt-3">
+              <label for="pwd" className="form-label">
+                Qualification:
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Enter Qualification"
+                name="qualification"
+              />
+              <div className="mb-3 mt-3">
+              <label for="pwd" className="form-label">
+                Upload Credentials:
+              </label>
+              <input
+                type="file"
+                className="form-control"
+                placeholder="Enter email/phone"
+                name="credentials"
+              />
+            </div>
+            </div>
+              <div className="mb-3">
+                <label for="pwd" className="form-label"></label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Job title"
+                  name="job"
+                />
+              </div>
               <textarea
                 name="message"
                 id=""
-                placeholder="message here"
+                placeholder="Job description"
                 className="form-control mt-3"
               ></textarea>
             </div>
@@ -82,4 +113,5 @@ const Contact = () => {
     </>
   );
 };
-export default Contact;
+
+export default Vocationalform;

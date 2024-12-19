@@ -7,6 +7,7 @@ import About from './Components/About.jsx';
 import Updates from './Components/Updates.jsx';
 import Contact from './Components/Contact.jsx';
 import Traning from './Components/Traning.jsx';
+import Vocationalform from './Components/Vocationalform.jsx';
 
 
 
@@ -16,6 +17,7 @@ const router= createBrowserRouter([
   {path:"/updates", element:<Updates/>},
   {path:"/contact", element:<Contact/>},
   {path:"/training", element:<Traning/>},
+  {path:"/vocationform", element:<Vocationalform/>}
 
 
 ])

@@ -17,7 +17,7 @@ const Vocations = () => {
             <li>vocational training and skills acquization, sports center, footballing and player management  </li>
             <li>Properties, estates developer and management, building and civil engineering.</li>
             <li>Culture and Heritage, Farming, Agriculture and empowerment</li>
-            <li>ITC, Conference and Meeting organizing, Event Management and Planning, Vocation and Excursion. </li>,
+            <li>ITC, Conference and Meeting organizing, Event Management and Planning, Vocation and Excursion. </li>
           </ul>
 
         </div>

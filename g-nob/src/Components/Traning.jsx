@@ -20,37 +20,39 @@ const Traning = () => {
           <h5 className="text-light">G-NOB VOCATIONAL CENTER</h5>
         </div>
       </div>
-      <div className="container p-3 mt-4 mb-4">
-        <div className="row g-3 p-2">
+      <div className="container p-3 mt-5 mb-4">
+        <h5>Welcome to G-NOB Vocational and training center where possibilities <br /> meet opportunities </h5>
+        <hr className="text-warning" />
+        <div className="row g-3 p-2 mt-4">
           <div className="col-12 col-lg-4">
             <img className="voca img-fluid" src={sec} alt="" />
             <h5  className="mt-4">Security</h5>
-            <Link to="/contact" className="btn btn-outline-warning">Apply Here</Link>
+            <Link to="/vocationform" className="btn btn-outline-warning">Apply Here</Link>
           </div>
           <div className="col-12 col-lg-4">
             <img className="voca img-fluid" src={farm} alt="" />
             <h5 className="mt-4">Farming</h5>
-            <Link to="/contact" className="btn btn-outline-warning">Apply Here</Link>
+            <Link to="/vocationform" className="btn btn-outline-warning">Apply Here</Link>
           </div>
           <div className="col-12 col-lg-4">
             <img className=" voca img-fluid" src={plum} alt="" />
             <h5  className="mt-4">Plumbring</h5>
-            <Link to="/contact" className="btn btn-outline-warning">Apply Here</Link>
+            <Link to="/vocationform" className="btn btn-outline-warning">Apply Here</Link>
           </div>
           <div className="col-12 col-lg-4">
             <img className="voca img-fluid" src={brick} alt="" />
             <h5  className="mt-4">Brick-laying</h5>
-            <Link to="/contact" className="btn btn-outline-warning">Apply Here</Link>
+            <Link to="/vocationform" className="btn btn-outline-warning">Apply Here</Link>
           </div>
           <div className="col-12 col-lg-4">
             <img className=" voca img-fluid" src={cap} alt="" />
             <h5  className="mt-4">capentry</h5>
-            <Link to="/contact" className="btn btn-outline-warning">Apply Here</Link>
+            <Link to="/vocationform" className="btn btn-outline-warning">Apply Here</Link>
           </div>
           <div className="col-12 col-lg-4">
             <img className=" voca img-fluid" src={art} alt="" />
             <h5  className="mt-4">Art</h5>
-            <Link to="/contact" className="btn btn-outline-warning">Apply Here</Link>
+            <Link to="/vocationform" className="btn btn-outline-warning">Apply Here</Link>
           </div>
         </div>
       </div>
