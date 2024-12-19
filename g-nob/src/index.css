@@ -1,0 +1,165 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.hero{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)),url(assets/logo2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-btn{
+  margin: 5px;
+  
+}
+
+.navbar{
+  opacity: 0.9;
+}
+
+.service1{
+  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0, 0, 0, 0.85)),url(assets/plane.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  
+
+}
+.service2{
+  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0, 0, 0, 0.85)),url(assets/inter.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+
+}
+.service3{
+  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0, 0, 0, 0.85)),url(assets/rec.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+
+}
+.tour-play{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+.training{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)),url(assets/contact.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.contact{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)),url(assets/contact.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+form{
+  max-width: 800px;
+}
+.footer{
+  margin: 5px;
+}
+.testimonia{
+  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0, 0, 0, 0.65)),url(assets/logo4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  background-attachment: fixed;
+
+}
+.customer{
+   opacity: 0.8;
+}
+.tour{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.visa{
+  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0, 0, 0, 0.65)),url(assets/voca.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  background-attachment: fixed;
+}
+.visa-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+
+}
+.visa-img{
+  width:500px;
+  height: 280px;
+}
+.update{
+  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0, 0, 0, 0.65)),url(assets/update.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  background-attachment: fixed;
+
+}
+.about{
+  background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0, 0, 0, 0.90)),url(assets/about2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  background-attachment: fixed;
+
+}
+.all{
+  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0, 0, 0, 0.65)),url(assets/tour2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.des{
+  height: 250px;
+  object-fit: cover;
+}
+
+
+.about-image{
+  height: 280px;
+  object-fit: cover;
+}
+.voca{
+  height: 200px;
+  width: 400px;
+}
