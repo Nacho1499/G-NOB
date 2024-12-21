@@ -1,6 +1,14 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import {useEffect } from "react";
+
 
 const Choose = () => {
+   useEffect(() => {
+      AOS.init();
+    }, []);
+  
   return (
     <>
       <div className="choose container-fluid mt-5 mb-5">
@@ -11,7 +19,11 @@ const Choose = () => {
           </p>
           <hr className="text-warning mb-2" />
           <div className="row g-5 text-center mt-2">
-            <div className="col-12 col-lg-4">
+            <div
+              className="col-12 col-lg-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <i class=" bg-warning fa-solid fa-earth-americas fa-1x mb-3 shadow p-3 rounded"></i>
               <h5 className="mb-3">24/7 Suspport</h5>
               <hr className="text-warning" />
@@ -21,7 +33,11 @@ const Choose = () => {
                 we are not far way from your calls and messages.
               </p>
             </div>
-            <div className="col-12 col-lg-4">
+            <div
+              className="col-12 col-lg-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <i class=" bg-warning fa-solid fa-bag-shopping fa-1x mb-3 shadow p-3 rounded"></i>
               <h5 className="mb-3">Wide variety of Options</h5>
               <hr className="text-warning" />
@@ -32,7 +48,11 @@ const Choose = () => {
                 clients.
               </p>
             </div>
-            <div className="col-12 col-lg-4">
+            <div
+              className="col-12 col-lg-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <i class=" fa-solid fa-thumbs-up fa-1x mb-3 shadow p-3 rounded bg-warning"></i>
               <h5 className="mb-3">Highly qualified services</h5>
               <hr className="text-warning" />

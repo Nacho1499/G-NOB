@@ -1,13 +1,23 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Services = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className=" services container mt-4  p-3 mb-5">
         <h4>Our Services</h4>
         <hr className="text-warning" />
         <div className="row g-3 mt-3 text-center">
-          <div className="col-12 col-lg-4">
+          <div
+            className="col-12 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <div className="service1 p-3 ">
               <div className="">
                 <i class="fa-solid fa-plane-departure fa-2x text-warning mb-3"></i>
@@ -23,7 +33,11 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-4">
+          <div
+            className="col-12 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <div className="service2 p-3 ">
               <div className="">
                 <i class="fa-solid fa-car fa-2x text-warning mb-3"></i>
@@ -41,7 +55,11 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-12 col-lg-4">
+          <div
+            className="col-12 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <div className="service3 p-3 ">
               <div className="">
                 <i class="fa-solid fa-hotel text-warning fa-2x mb-3"></i>

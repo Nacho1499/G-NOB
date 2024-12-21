@@ -2,8 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import Scroll from "./Scroll";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Updates = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Scroll />
@@ -16,7 +22,7 @@ const Updates = () => {
           </Link>
           <div className="mt-4 text-light bg-warning p-3 rounded shadow text-black">
             <h6 className="mb-3">Welcome mesage</h6>
-            <p>
+            <p data-aos="zoom-in" data-aos-duration="1000">
               Welcome Message from G-NOB Vocational Global Concept Limited
               Welcome to G-NOB Vocational Global Concept Limited! We are
               delighted to have you with us as we embark on a journey toward
@@ -30,7 +36,7 @@ const Updates = () => {
           </div>
           <div className="mt-4 text-light bg-warning p-3 rounded shadow text-black">
             <h6 className="mb-3">Regular Updates</h6>
-            <p>
+            <p data-aos="zoom-in" data-aos-duration="1000">
               Regular Update from G-NOB Vocational Global Concept Limited At
               G-NOB Vocational Global Concept Limited, we are dedicated to
               keeping you informed and up-to-date with the latest developments,

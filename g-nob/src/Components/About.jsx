@@ -2,8 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import Scroll from "./Scroll";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const About = () => {
+   useEffect(() => {
+              AOS.init();
+            }, []);
   return (
     <>
       <Scroll />
@@ -14,7 +20,7 @@ const About = () => {
           </h4>
           <hr className="text-warning" />
           <h6 className="text-light">EVERYTHING SERVICES AND MORE..</h6>
-          <p className="text-light mt-3">
+          <p className="text-light mt-3" data-aos="zoom-in" data-aos-duration="1000">
             The G-NOb Vocational Global Concept is a comprehensive approach to
             vocational guidance that emphasizes the importance of self-concept
             and individual development in career exploration and choice. It
@@ -27,7 +33,7 @@ const About = () => {
             personal values and goals, leading to greater job satisfaction and
             fulfillment.
           </p>
-          <p className="text-light">
+          <p className="text-light" data-aos="zoom-in" data-aos-duration="1000">
             G-NOB is a modern business or
             organizational approach aimed at fostering global connectivity,
             innovation, and collaboration. The concept emphasizes the

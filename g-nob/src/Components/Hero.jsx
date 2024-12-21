@@ -1,8 +1,14 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const { data, setDate } = useState();
   function show() {
     setDate(alert("Booking is not avaliable for now, check back later"));
@@ -11,11 +17,13 @@ const Hero = () => {
   return (
     <>
       <div className="hero container-fluid">
-        <div className="">
+        <div data-aos="zoom-in" data-aos-duration="1000">
           <h2 className="text-light text-center">
             G-NOB VOCATIONAL GLOBAL CONCEPT LIMITED
           </h2>
-          <p className="text-light text-center">everything services and more...</p>
+          <p className="text-light text-center">
+            everything services and more...
+          </p>
           <div className="text-center">
             <Link
               to="/contact"

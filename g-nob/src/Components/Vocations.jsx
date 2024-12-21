@@ -1,15 +1,21 @@
 import React from 'react'
 import voca2 from "../assets/voca2.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import {useEffect } from "react";
 
 const Vocations = () => {
+   useEffect(() => {
+          AOS.init();
+        }, []);
   return (
     <div className="container-fluid mt-5 mb-5 p-3">
     <div className="container">
       <div className="row g-3 mt-4 mb-4">
-        <div className="col-12 col-lg-6">
+        <div className="col-12 col-lg-6"  data-aos="fade-right" data-aos-duration="1000">
           <img className="visa-img img-fluid" src={voca2} alt="" />
         </div>
-        <div className="col-12 col-lg-6">
+        <div className="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="1000">
           <h4 className="mb-3">Our Business Activities</h4>
           <hr className="text-warning" />
           <ul>

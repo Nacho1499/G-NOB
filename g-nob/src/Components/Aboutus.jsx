@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/about2.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import {useEffect } from "react";
 
 const Aboutus = () => {
+   useEffect(() => {
+        AOS.init();
+      }, []);
   return (
     <>
       <section className="container-fluid p-3 mt-5 mb-5">
@@ -9,14 +15,14 @@ const Aboutus = () => {
           <h4>About Us</h4>
           <hr className="text-warning mb-4" />
           <div className="row g-5">
-            <div className="col-12 col-lg-6">
+            <div className="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1000">
               <img
                 className="img-fluid about-image"
                 src={logo}
                 alt="about logo"
               />
             </div>
-            <div className="col-12 col-lg-6">
+            <div className="col-12 col-lg-6"  data-aos="fade-left" data-aos-duration="1000">
               <p>
                 The G-NOb Vocational Global Concept is a comprehensive approach
                 to vocational guidance that emphasizes the importance of
